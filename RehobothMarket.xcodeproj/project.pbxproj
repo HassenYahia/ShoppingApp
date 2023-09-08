@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5C541D2A87C25E00EF5D46 /* RehobothMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C541C2A87C25E00EF5D46 /* RehobothMarketApp.swift */; };
+		1C5C541F2A87C25E00EF5D46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C541E2A87C25E00EF5D46 /* ContentView.swift */; };
+		1C5C54212A87C26000EF5D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C54202A87C26000EF5D46 /* Assets.xcassets */; };
+		1C5C54242A87C26000EF5D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5C54232A87C26000EF5D46 /* Preview Assets.xcassets */; };
+		1C5C542C2A87C93000EF5D46 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C542B2A87C93000EF5D46 /* Product.swift */; };
+		1C5C542F2A87CBF500EF5D46 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C542E2A87CBF500EF5D46 /* ProductCard.swift */; };
+		1C5C54322A88325500EF5D46 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C54312A88325500EF5D46 /* CartButton.swift */; };
+		1C5C54342A883B3600EF5D46 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C54332A883B3600EF5D46 /* CartView.swift */; };
+		1C5C54362A883CE800EF5D46 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C54352A883CE800EF5D46 /* CartManager.swift */; };
+		1C5C54382A8841D100EF5D46 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C54372A8841D100EF5D46 /* ProductRow.swift */; };
+		1C5C543A2A8910E800EF5D46 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C54392A8910E800EF5D46 /* PaymentButton.swift */; };
+		1C5C543D2A89267600EF5D46 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C543C2A89267600EF5D46 /* PaymentHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C5C54192A87C25E00EF5D46 /* RehobothMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RehobothMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5C541C2A87C25E00EF5D46 /* RehobothMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehobothMarketApp.swift; sourceTree = "<group>"; };
+		1C5C541E2A87C25E00EF5D46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C5C54202A87C26000EF5D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C5C54232A87C26000EF5D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C5C542B2A87C93000EF5D46 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		1C5C542E2A87CBF500EF5D46 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		1C5C54312A88325500EF5D46 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		1C5C54332A883B3600EF5D46 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		1C5C54352A883CE800EF5D46 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		1C5C54372A8841D100EF5D46 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		1C5C54392A8910E800EF5D46 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		1C5C543B2A89260C00EF5D46 /* RehobothMarket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RehobothMarket.entitlements; sourceTree = "<group>"; };
+		1C5C543C2A89267600EF5D46 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5C54162A87C25E00EF5D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5C54102A87C25E00EF5D46 = {
+			isa = PBXGroup;
+			children = (
+				1C5C541B2A87C25E00EF5D46 /* RehobothMarket */,
+				1C5C541A2A87C25E00EF5D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C5C541A2A87C25E00EF5D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C54192A87C25E00EF5D46 /* RehobothMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C5C541B2A87C25E00EF5D46 /* RehobothMarket */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C543B2A89260C00EF5D46 /* RehobothMarket.entitlements */,
+				1C5C541C2A87C25E00EF5D46 /* RehobothMarketApp.swift */,
+				1C5C54302A87D20200EF5D46 /* Views */,
+				1C5C542D2A87CB7200EF5D46 /* Components */,
+				1C5C542A2A87C8D300EF5D46 /* Models */,
+				1C5C54202A87C26000EF5D46 /* Assets.xcassets */,
+				1C5C54222A87C26000EF5D46 /* Preview Content */,
+				1C5C54352A883CE800EF5D46 /* CartManager.swift */,
+				1C5C543C2A89267600EF5D46 /* PaymentHandler.swift */,
+			);
+			path = RehobothMarket;
+			sourceTree = "<group>";
+		};
+		1C5C54222A87C26000EF5D46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C54232A87C26000EF5D46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C5C542A2A87C8D300EF5D46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C542B2A87C93000EF5D46 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C5C542D2A87CB7200EF5D46 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C542E2A87CBF500EF5D46 /* ProductCard.swift */,
+				1C5C54312A88325500EF5D46 /* CartButton.swift */,
+				1C5C54372A8841D100EF5D46 /* ProductRow.swift */,
+				1C5C54392A8910E800EF5D46 /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1C5C54302A87D20200EF5D46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C541E2A87C25E00EF5D46 /* ContentView.swift */,
+				1C5C54332A883B3600EF5D46 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C5C54182A87C25E00EF5D46 /* RehobothMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5C54272A87C26000EF5D46 /* Build configuration list for PBXNativeTarget "RehobothMarket" */;
+			buildPhases = (
+				1C5C54152A87C25E00EF5D46 /* Sources */,
+				1C5C54162A87C25E00EF5D46 /* Frameworks */,
+				1C5C54172A87C25E00EF5D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RehobothMarket;
+			productName = RehobothMarket;
+			productReference = 1C5C54192A87C25E00EF5D46 /* RehobothMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C5C54112A87C25E00EF5D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1C5C54182A87C25E00EF5D46 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1C5C54142A87C25E00EF5D46 /* Build configuration list for PBXProject "RehobothMarket" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C5C54102A87C25E00EF5D46;
+			productRefGroup = 1C5C541A2A87C25E00EF5D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C5C54182A87C25E00EF5D46 /* RehobothMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C5C54172A87C25E00EF5D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5C54242A87C26000EF5D46 /* Preview Assets.xcassets in Resources */,
+				1C5C54212A87C26000EF5D46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5C54152A87C25E00EF5D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5C543A2A8910E800EF5D46 /* PaymentButton.swift in Sources */,
+				1C5C543D2A89267600EF5D46 /* PaymentHandler.swift in Sources */,
+				1C5C54342A883B3600EF5D46 /* CartView.swift in Sources */,
+				1C5C541F2A87C25E00EF5D46 /* ContentView.swift in Sources */,
+				1C5C54362A883CE800EF5D46 /* CartManager.swift in Sources */,
+				1C5C541D2A87C25E00EF5D46 /* RehobothMarketApp.swift in Sources */,
+				1C5C54382A8841D100EF5D46 /* ProductRow.swift in Sources */,
+				1C5C542C2A87C93000EF5D46 /* Product.swift in Sources */,
+				1C5C542F2A87CBF500EF5D46 /* ProductCard.swift in Sources */,
+				1C5C54322A88325500EF5D46 /* CartButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C5C54252A87C26000EF5D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C5C54262A87C26000EF5D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C5C54282A87C26000EF5D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RehobothMarket/RehobothMarket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RehobothMarket/Preview Content\"";
+				DEVELOPMENT_TEAM = N2UFYTW22V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RehobothMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C5C54292A87C26000EF5D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RehobothMarket/RehobothMarket.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RehobothMarket/Preview Content\"";
+				DEVELOPMENT_TEAM = N2UFYTW22V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RehobothMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C5C54142A87C25E00EF5D46 /* Build configuration list for PBXProject "RehobothMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5C54252A87C26000EF5D46 /* Debug */,
+				1C5C54262A87C26000EF5D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5C54272A87C26000EF5D46 /* Build configuration list for PBXNativeTarget "RehobothMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5C54282A87C26000EF5D46 /* Debug */,
+				1C5C54292A87C26000EF5D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C5C54112A87C25E00EF5D46 /* Project object */;
+}
